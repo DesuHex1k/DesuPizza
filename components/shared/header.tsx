@@ -3,7 +3,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { Container } from "./container";
 import Image from "next/image";
-import { ArrowRight, Link, ShoppingCart, UserIcon } from "lucide-react";
+import { ArrowRight, ShoppingCart, UserIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import { Title } from "./title";
 
