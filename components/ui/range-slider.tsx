@@ -17,7 +17,7 @@ type SliderProps = {
 
 const RangeSlider = React.forwardRef(
   (
-    { className, min, max, step, formatLabel, value, onValueChange, ...props }: SliderProps,
+    { className, min, max, step, value, onValueChange, ...props }: SliderProps,
     ref,
   ) => {
     const initialValue = Array.isArray(value) ? value : [min, max];

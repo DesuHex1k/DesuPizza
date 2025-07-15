@@ -14,7 +14,7 @@ interface Props {
     ingredients: string[]
 }
 
-export const ProductCart: React.FC<Props> = ({ className, imageUrl, id, price, name, ingredients }) => {
+export const ProductCart: React.FC<Props> = ({ className, imageUrl, price, name, ingredients }) => {
     return (
         <div className={className}>
             <Link href={`/product/1`}>
