@@ -15,7 +15,6 @@ export const Header: React.FC<Props> = ({ className }) => {
     return (    
         <header className={cn(className, '')}>
             <Container className="flex items-center justify-between py-6 md:py-8 sm:py-4 xs:py-3">
-                <Link href="/">
                     <div className="flex items-center gap-4 md:gap-4 sm:gap-2 xs:gap-2">
                         <Image 
                             src="/logo.png" 
@@ -34,7 +33,6 @@ export const Header: React.FC<Props> = ({ className }) => {
                             <Title text="DesuPizza" size="lg" className="font-extrabold text-lg" />
                         </div>
                     </div>
-                </Link>
                 
                 <div className="flex items-center gap-4 md:gap-4 sm:gap-2 xs:gap-2">
                     {/* Desktop buttons */}
