@@ -4,6 +4,7 @@ import { TopBar } from "@/components/shared/top-bar";
 import { Title } from "@/components/shared/title";
 import { ProductsGroupList } from "@/components/shared/products-group-list";
 import { cn } from "@/lib/utils";
+import { Suspense } from "react";
 
 export default function Home() {
   const pizzas = [
@@ -153,7 +154,9 @@ export default function Home() {
           'flex xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col'
         )}>
           <div className="w-[280px] lg:w-[280px] md:w-full sm:w-full xs:w-full flex-shrink-0">
-            <Filters />
+            <Suspense fallback={<div>Loading filters...</div>}>
+              <Filters />
+            </Suspense>
           </div>
 
           <div className="flex-1 min-w-0">
