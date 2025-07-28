@@ -1,7 +1,7 @@
 'use client'
 import React, { useRef, useState } from 'react';
 import { cn } from '@/lib/utils';
-import { Search, SearchIcon, X } from 'lucide-react';
+import { Search} from 'lucide-react';
 import { Input } from '../ui/input';
 import { useClickAway } from 'react-use';
 import Link from 'next/link';
