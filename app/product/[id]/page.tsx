@@ -1,12 +1,14 @@
 import React from 'react';
 
 interface Props {
-  params: {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
-export default function ProductPage({ params: { id } }: Props) {
+export default async function ProductPage({ params }: Props) {
+  const { id } = await params;
+  
   return (
     <div>
       Product: {id}
