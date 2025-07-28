@@ -4,22 +4,25 @@ import { cn } from "@/lib/utils";
 import { Container } from "./container";
 import Image from "next/image";
 import { ArrowRight, ShoppingCart, UserIcon } from "lucide-react";
+import Link from "next/link";
 import { Button } from "../ui/button";
 import { Title } from "./title";
+import { SearchInput } from "./search-input";
 
 type Props = {
     className?: string;
 }
 
 export const Header: React.FC<Props> = ({ className }) => {
-    return (    
+    return (
         <header className={cn(className, '')}>
             <Container className="flex items-center justify-between py-6 md:py-8 sm:py-4 xs:py-3">
+                <Link href="/">
                     <div className="flex items-center gap-4 md:gap-4 sm:gap-2 xs:gap-2">
-                        <Image 
-                            src="/logo.png" 
-                            alt="logo" 
-                            width={52} 
+                        <Image
+                            src="/logo.png"
+                            alt="logo"
+                            width={52}
                             height={52}
                             className="md:w-[52px] md:h-[52px] sm:w-[40px] sm:h-[40px] xs:w-[32px] xs:h-[32px]"
                         />
@@ -28,12 +31,18 @@ export const Header: React.FC<Props> = ({ className }) => {
                             <Title text="DesuPizza" size="lg" className="font-extrabold md:text-xl sm:text-lg xs:text-base" />
                             <p className="text-md text-gray-400 leading-3 md:text-sm sm:text-xs ">Натхненно Японією – створено з душею</p>
                         </div>
-                        
+
                         <div className="sm:hidden">
                             <Title text="DesuPizza" size="lg" className="font-extrabold text-lg" />
                         </div>
                     </div>
-                
+                </Link>
+
+                <div className="mx-10 flex-1">
+                    <SearchInput />
+                </div>
+
+
                 <div className="flex items-center gap-4 md:gap-4 sm:gap-2 xs:gap-2">
                     {/* Desktop buttons */}
                     <div className="hidden md:flex items-center gap-4">

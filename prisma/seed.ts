@@ -164,87 +164,87 @@ async function up() {
             {
                 name: 'Омлет з шинкою та грибами',
                 imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
-                categoryId: 5, // Сніданки
+                categoryId: 5,
             },
             {
                 name: 'Омлет з пепероні',
                 imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
-                categoryId: 5, // Сніданки
+                categoryId: 5,
             },
             {
                 name: 'Кава Латте',
                 imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7, // Кофе
+                categoryId: 7,
             },
             {
                 name: 'Сендвіч шинка та сир',
                 imageUrl: 'https://images.unsplash.com/photo-1528735602786-469f601639d3?w=400&h=400&fit=crop',
-                categoryId: 4, // Комбо
+                categoryId: 4,
             },
             {
                 name: 'Курячі нагетси',
                 imageUrl: 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400&h=400&fit=crop',
-                categoryId: 4, // Комбо
+                categoryId: 4,
             },
             {
-                name: 'Картопля з духовки з соусом 🌱',
+                name: 'Картопля з духовки з соусом',
                 imageUrl: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400&h=400&fit=crop',
-                categoryId: 4, // Комбо
+                categoryId: 4,
             },
             {
                 name: 'Додстер',
                 imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
-                categoryId: 4, // Комбо
+                categoryId: 4,
             },
             {
-                name: 'Гострий Додстер 🌶️🌶️',
+                name: 'Гострий Додстер',
                 imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
-                categoryId: 4, // Комбо
+                categoryId: 4,
             },
             {
                 name: 'Банановий молочний коктейль',
                 imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
-                categoryId: 6, // Коктейлі
+                categoryId: 6,
             },
             {
                 name: 'Карамельне яблуко молочний коктейль',
                 imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
-                categoryId: 6, // Коктейлі
+                categoryId: 6,
             },
             {
                 name: 'Молочний коктейль з печивом Орео',
                 imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
-                categoryId: 6, // Коктейлі
+                categoryId: 6,
             },
             {
-                name: 'Класичний молочний коктейль 👶',
+                name: 'Класичний молочний коктейль',
                 imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
-                categoryId: 6, // Коктейлі
+                categoryId: 6,
             },
             {
                 name: 'Ірландський Капучино',
                 imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7, // Кофе
+                categoryId: 7,
             },
             {
                 name: 'Кава Карамельний капучино',
                 imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7, // Кофе
+                categoryId: 7,
             },
             {
                 name: 'Кава Кокосовий латте',
                 imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7, // Кофе
+                categoryId: 7,
             },
             {
                 name: 'Кава Американо',
                 imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7, // Кофе
+                categoryId: 7,
             },
             {
                 name: 'Кава Латте',
                 imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7, // Кофе
+                categoryId: 7,
             },
         ]
     })

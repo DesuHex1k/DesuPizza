@@ -47,7 +47,7 @@ export default function Home() {
       name: "Піца",
       ingredients: ['Крука', 'Моцарелла', 'Сир чеддер', 'Пармезан', 'Сырный соус', 'Томаты', 'Соус альфредо', 'Чеснок'],
       imageUrl: "https://th.bing.com/th/id/R.e9afc071c4bdaf52367c73fbd4f17739?rik=7k6z8dE5QI7QbQ&pid=ImgRaw&r=0"
-    },
+    }
   ]
 
   const drinks = [
