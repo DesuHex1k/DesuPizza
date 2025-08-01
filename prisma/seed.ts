@@ -163,87 +163,72 @@ async function up() {
         data: [
             {
                 name: 'Омлет з шинкою та грибами',
-                imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
+                imageUrl: 'https://th.bing.com/th/id/R.b2c45112f710356546f4e8f290e9237a?rik=8HCcN1plgEJqyA&pid=ImgRaw&r=0',
                 categoryId: 5,
             },
             {
                 name: 'Омлет з пепероні',
-                imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
+                imageUrl: 'https://th.bing.com/th/id/R.b2c45112f710356546f4e8f290e9237a?rik=8HCcN1plgEJqyA&pid=ImgRaw&r=0',
                 categoryId: 5,
             },
             {
-                name: 'Кава Латте',
-                imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
-                categoryId: 7,
-            },
-            {
                 name: 'Сендвіч шинка та сир',
-                imageUrl: 'https://images.unsplash.com/photo-1528735602786-469f601639d3?w=400&h=400&fit=crop',
+                imageUrl: 'https://unapinsa.com/wp-content/uploads/2023/11/baffalo-chiken-sajt.png',
                 categoryId: 4,
             },
             {
                 name: 'Курячі нагетси',
-                imageUrl: 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400&h=400&fit=crop',
+                imageUrl: 'https://mcdonalds.com.lb/storage/menu-products/April2020/GVZc5nHu4ToFungTVJZ3.png',
                 categoryId: 4,
             },
             {
                 name: 'Картопля з духовки з соусом',
-                imageUrl: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400&h=400&fit=crop',
-                categoryId: 4,
-            },
-            {
-                name: 'Додстер',
-                imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
-                categoryId: 4,
-            },
-            {
-                name: 'Гострий Додстер',
-                imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=400&fit=crop',
+                imageUrl: 'https://png.pngtree.com/png-clipart/20211017/original/pngtree-sweet-potato-corner-western-food-delicious-photography-picture-fragrance-png-image_6856201.png',
                 categoryId: 4,
             },
             {
                 name: 'Банановий молочний коктейль',
-                imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/041/918/172/large_2x/ai-generated-chocolate-milk-shake-isolated-on-transparent-background-free-png.png',
                 categoryId: 6,
             },
             {
                 name: 'Карамельне яблуко молочний коктейль',
-                imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/041/918/172/large_2x/ai-generated-chocolate-milk-shake-isolated-on-transparent-background-free-png.png',
                 categoryId: 6,
             },
             {
                 name: 'Молочний коктейль з печивом Орео',
-                imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/041/918/172/large_2x/ai-generated-chocolate-milk-shake-isolated-on-transparent-background-free-png.png',
                 categoryId: 6,
             },
             {
                 name: 'Класичний молочний коктейль',
-                imageUrl: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/041/918/172/large_2x/ai-generated-chocolate-milk-shake-isolated-on-transparent-background-free-png.png',
                 categoryId: 6,
             },
             {
                 name: 'Ірландський Капучино',
-                imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/023/742/327/non_2x/latte-coffee-isolated-illustration-ai-generative-free-png.png',
                 categoryId: 7,
             },
             {
                 name: 'Кава Карамельний капучино',
-                imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/023/742/327/non_2x/latte-coffee-isolated-illustration-ai-generative-free-png.png',
                 categoryId: 7,
             },
             {
                 name: 'Кава Кокосовий латте',
-                imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/023/742/327/non_2x/latte-coffee-isolated-illustration-ai-generative-free-png.png',
                 categoryId: 7,
             },
             {
                 name: 'Кава Американо',
-                imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/023/742/327/non_2x/latte-coffee-isolated-illustration-ai-generative-free-png.png',
                 categoryId: 7,
             },
             {
                 name: 'Кава Латте',
-                imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop',
+                imageUrl: 'https://static.vecteezy.com/system/resources/previews/023/742/327/non_2x/latte-coffee-isolated-illustration-ai-generative-free-png.png',
                 categoryId: 7,
             },
         ]
@@ -255,7 +240,7 @@ async function up() {
     const pizza1 = await prisma.product.create({
       data: {
         name: 'Пепероні фреш',
-        imageUrl: 'https://images.unsplash.com/photo-1548365328-8b849e6c7b77?w=400&h=400&fit=crop',
+        imageUrl: 'https://th.bing.com/th/id/R.e9afc071c4bdaf52367c73fbd4f17739?rik=7k6z8dE5QI7QbQ&pid=ImgRaw&r=0',
         categoryId: 1,
         ingredients: {
           connect: allIngredients.slice(0, 5).map(i => ({ id: i.id })),
@@ -267,7 +252,7 @@ async function up() {
     const pizza2 = await prisma.product.create({
       data: {
         name: 'Сирна',
-        imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=400&fit=crop',
+        imageUrl: 'https://th.bing.com/th/id/R.e9afc071c4bdaf52367c73fbd4f17739?rik=7k6z8dE5QI7QbQ&pid=ImgRaw&r=0',
         categoryId: 1,
         ingredients: {
           connect: allIngredients.slice(5, 10).map(i => ({ id: i.id })),
@@ -279,7 +264,7 @@ async function up() {
     const pizza3 = await prisma.product.create({
       data: {
         name: 'Чорізо фреш',
-        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop',
+        imageUrl: 'https://th.bing.com/th/id/R.e9afc071c4bdaf52367c73fbd4f17739?rik=7k6z8dE5QI7QbQ&pid=ImgRaw&r=0',
         categoryId: 1,
         ingredients: {
           connect: allIngredients.slice(10, 15).map(i => ({ id: i.id })),

@@ -3,6 +3,8 @@ import React from 'react';
 import { Title } from './title';
 import { Button } from '../ui/button';
 import { PlusIcon } from 'lucide-react';
+import {Ingredient} from "@prisma/client";
+
 
 
 interface Props {
@@ -11,7 +13,7 @@ interface Props {
     id: number
     price: number
     name: string
-    ingredients: string[]
+    ingredients: Ingredient[]
 }
 
 export const ProductCart: React.FC<Props> = ({ className, imageUrl, price, name, ingredients }) => {
@@ -25,8 +27,9 @@ export const ProductCart: React.FC<Props> = ({ className, imageUrl, price, name,
                 <Title text={name} size="sm" className="font-bold mb-1 mt-3 text-sm sm:text-base" />
 
                 <p className="text-xs sm:text-sm text-gray-500 mb-3 line-clamp-2">
-                    {ingredients.join(', ')}
+                    {ingredients.map(ingredient => ingredient.name).join(', ')}
                 </p>
+
 
                 <div className="flex items-center justify-between mt-4 gap-2">
                     <span className="text-xs sm:text-sm text-primary font-bold">

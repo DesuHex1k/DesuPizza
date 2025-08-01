@@ -9,13 +9,14 @@ import { useCategory } from '@/store/category';
 interface Props {
     className?: string
     title: string
-    items: {
-        id: number;
-        name: string;
-        ingredients: string[];
-        imageUrl: string;
-        items: { price: number }[];
-    }[]
+    // items: {
+    //     id: number;
+    //     name: string;
+    //     ingredients: string[];
+    //     imageUrl: string;
+    //     items: { price: number }[];
+    // }[]
+    items: any[]
     categoryId: number
     listClassName?: string
 }

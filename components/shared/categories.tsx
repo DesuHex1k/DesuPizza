@@ -2,44 +2,46 @@
 import { cn } from "@/lib/utils";
 import { useCategory } from "@/store/category";
 import React from "react";
+import {Category} from "@prisma/client";
 
 type CategoriesProps = {
+    items: Category[];
     className?: string;
 };
 
-const categories = [
-    {
-        id: 0,
-        name: 'Піци',
-    },
-    {
-        id: 1,
-        name: 'Десерти',
-    },
-    {
-        id: 2,
-        name: 'Напої',
-    },
-    {
-        id: 3,
-        name: 'Комбо',
-    },
-    {
-        id: 4,
-        name: 'Сніданки',
-    },
-    {
-        id: 5,
-        name: 'Коктейлі',
-    },
-    {
-        id: 6,
-        name: 'Кофе',
-    }
-]
+// const categories = [
+//     {
+//         id: 0,
+//         name: 'Піци',
+//     },
+//     {
+//         id: 1,
+//         name: 'Десерти',
+//     },
+//     {
+//         id: 2,
+//         name: 'Напої',
+//     },
+//     {
+//         id: 3,
+//         name: 'Комбо',
+//     },
+//     {
+//         id: 4,
+//         name: 'Сніданки',
+//     },
+//     {
+//         id: 5,
+//         name: 'Коктейлі',
+//     },
+//     {
+//         id: 6,
+//         name: 'Кофе',
+//     }
+// ]
 
 
-export const Categories: React.FC<CategoriesProps> = ({ className }) => {
+export const Categories: React.FC<CategoriesProps> = ({ items, className }) => {
     const activeId = useCategory(state => state.activeId);
     
     return (
@@ -47,7 +49,7 @@ export const Categories: React.FC<CategoriesProps> = ({ className }) => {
             {/* Desktop version */}
             <div className="hidden md:inline-flex gap-1 bg-gray-100 p-1 rounded-full">
                 {
-                    categories.map((category) => (
+                    items.map((category) => (
                         <a href={`#${category.name}`}
                             key={category.id}
                             className={cn('rounded-full flex items-center font-bold h-11 px-5 hover:bg-white transition-all duration-300',
@@ -64,7 +66,7 @@ export const Categories: React.FC<CategoriesProps> = ({ className }) => {
             <div className="md:hidden">
                 <div className="grid grid-cols-2 gap-2">
                     {
-                        categories.map((category) => (
+                        items.map((category) => (
                             <a href={`#${category.name}`}
                                 key={category.id}
                                 className={cn(
